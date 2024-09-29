@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #000000;
+  color: #fff;
+}
+img {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+}
+img[alt="My Coin"] {
+  mix-blend-mode: hard-light;
+  height: 10%;
+  width: auto;
+}
+img[alt="My Cartoon"] {
+  height: 35%;
+  width: 15%;
+}
+
+h1 {
+  display: inline-block;
+  outline: 4px solid #eee;
+  outline-offset: 8px;
+}
